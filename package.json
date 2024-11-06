@@ -2,6 +2,10 @@
   "name": "bun-researcher",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun index.ts",
+    "watch": "bun --watch run index.ts"
+  },
   "devDependencies": {
     "@types/bun": "1.1.13"
   },
